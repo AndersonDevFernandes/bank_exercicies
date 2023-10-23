@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0000004b;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  display: none; /*modal após loguin*/
+}

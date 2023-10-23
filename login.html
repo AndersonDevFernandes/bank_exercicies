@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JPMorgan</title>
+</head>
+<body>
+  <div class="header">
+    <p class="name">JPMorgan</p>
+  </div>
+  <div>
+    <div>
+      <p>Make your login</p>
+    </div>
+    <form>
+
+      <label for="username"></label>
+      <input type="text" id="username" placeholder="Name" required>
+
+      <label for="pass"></label>
+      <input type="password" id="password" placeholder=" password" required>
+      
+      <button class="btn" value="enter" onclick="login(event)">login</button>
+    </form>
+  </div>
+
+
+<div class="modal" onclick="modal(event)">
+  <div class="btn-box">
+    <button class="btn" onclick="">BALANCE</button>
+    <button class="btn" onclick="">DEPOSIT</button>
+    <button class="btn" onclick="">WITHDRAW</button>
+    <button class="btn" onclick="">ACCOUNT NUMBER</button>
+  </div>
+</div>
+  
+
+
+  <script src="index.js"></script>
+</body>
+</html>
